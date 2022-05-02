@@ -1,5 +1,5 @@
 
-publi class PrintIntegerVariable {
+public class PrintIntegerVariable {
 
 	public static void main (String[] args) {
 		int numero = 311;
