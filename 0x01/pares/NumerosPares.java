@@ -8,3 +8,8 @@ public class NumerosPares {
 				else {
 					System.out.println(i);
 					break;
+				}
+			}
+		}
+	}
+}
