@@ -10,7 +10,7 @@ public class Numero {
 		}
 
 		finally {
-			SYstem.out.println(a + " / " + b + " = " + resultado);
+			System.out.println(a + " / " + b + " = " + resultado);
 			}
 	}
 }
