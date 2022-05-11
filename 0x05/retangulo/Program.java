@@ -9,7 +9,7 @@ public class Program {
         else
             System.out.println("Retangulo nao eh uma subclasse de FormaGeometrica");
 
-        System.out.printf("Largura: %2f\n", retangulo.getLargura());
+        System.out.printf("Largura: %.2f\n", retangulo.getLargura());
         System.out.printf("Altura: %.2f\n", retangulo.getAltura());
 
         try {
