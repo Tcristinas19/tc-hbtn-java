@@ -1,4 +1,4 @@
-import provedores.frete;
+import provedores.Frete;
 
 public class Pedido {
 
