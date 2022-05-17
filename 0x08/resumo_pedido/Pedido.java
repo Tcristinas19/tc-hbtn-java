@@ -2,10 +2,14 @@ import provedores.Frete;
 
 public class Pedido {
 
+    public static Frete setFrete;
     public int codigo;
     public double peso;
     public double total;
     public Frete frete;
+
+    public Pedido(int i, int i1, double v) {
+    }
 
 
     public int getCodigo() {

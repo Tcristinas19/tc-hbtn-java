@@ -15,10 +15,17 @@ public class JadLog implements ProvedorFrete {
             valorFrete = valor * 0045;
         }
 
+        double obterTipoProvedorFrete = 0;
         Frete frete = new Frete(obterTipoProvedorFrete, valorFrete());
 
         return frete;
     }
+
+    private TipoProvedorFrete valorFrete() {
+
+        return null;
+    }
+
     @Override
     public TipoProvedorFrete obterTipoProvedorFrete() {
         return TipoProvedorFrete.JADLOG;
