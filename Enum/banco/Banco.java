@@ -61,7 +61,7 @@ public class Banco {
         }
         for (int i1 = 0; i1 < agLocalizada.getClientes().size(); i1++) {
             Cliente encontrado = agLocalizada.getClientes().get(i1);
-            System.out.println("Cliente: " + encontrado.getNome() + " [" + (i1 + 1) + "]");
+            System.out.print("Cliente: " + encontrado.getNome() + " [" + (i1 + 1) + "]\n");
 
             if (imprimiTransacoes) {
                 for (int i2 = 0; i2 < encontrado.getTransacoes().size(); i2++) {
