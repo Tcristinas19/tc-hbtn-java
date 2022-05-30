@@ -29,6 +29,6 @@ public class Produto {
 
     @Override
     public String toString(){
-        return "[" + this.codigo + "]" + this.nome + " " + this.categoria + " R$ " + String.format("%.2f", this.preco);
+        return "[" + this.codigo + "] " + this.nome + " " + this.categoria + " R$ " + String.format("%.2f", this.preco);
     }
 }
